@@ -6,9 +6,7 @@ html {
 }
 
 body {
-    /* background: url("/assets/images/backgrounds/CC_Center_1.jpg") no-repeat fixed center; */
-    background: darkblue;
-    background-size: cover;
+    background: #242428;
 
     min-height: 100%;
     margin: 0 0 25px; /* bottom = footer height */
@@ -24,7 +22,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    color: #DE1A1A;
+    color: #5566c2;
 }
 
 h1 {
@@ -45,11 +43,12 @@ h4, h5, h6 {
 
 p {
     size: 16pt;
+    color: white;
 }
 
 button {
     font-size: 18px;
-    background-color: #DE1A1A;
+    background-color: #5566c2;
     color: white;
     padding: 10px;
     border: 2px black;
@@ -63,8 +62,8 @@ button:hover {
 }
 
 hr {
-    color: #DE1A1A;
-    background-color: #DE1A1A;
+    color: #5566c2;
+    background-color: #5566c2;
     border-color: transparent;
 
     height: 1px;
@@ -73,10 +72,10 @@ hr {
 
 /* Wrappers */
 #content {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: auto;
-    background-color: white;
+    background-color: #3c3d41;
 
     padding: 10px;
 
@@ -94,30 +93,27 @@ hr {
     display: inline-block;
 }
 
-.simple-gallery-wrapper {
-    width: auto;
-    display: inline-flex;
-    position: center;
-    background-color: #ffffff;
-}
-
-.simple-gallery-wrapper img {
-    margin: 10px auto;
-}
-
 /* Navigation bar */
 .top-nav {
     overflow: hidden;
-    background-color: #DE1A1A;
+    background-color: #5566c2;
 }
 
-.top-nav a {
+.top-nav h1 {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
-    font-size: 17px;
+    margin-left: 15px;
+}
+
+.top-nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 24px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -128,6 +124,6 @@ hr {
 }
 
 .top-nav a.active {
-    background-color: #090809;
+    background-color: #3c3d41;
     color: white;
 }
