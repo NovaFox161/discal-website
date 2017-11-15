@@ -1,0 +1,133 @@
+/* The basics */
+html {
+    position: relative;
+    min-height: 100%;
+    overflow: auto;
+}
+
+body {
+    /* background: url("/assets/images/backgrounds/CC_Center_1.jpg") no-repeat fixed center; */
+    background: darkblue;
+    background-size: cover;
+
+    min-height: 100%;
+    margin: 0 0 25px; /* bottom = footer height */
+
+    overflow-x: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #DE1A1A;
+}
+
+h1 {
+    size: 32pt;
+}
+
+h2 {
+    size: 28pt;
+}
+
+h3 {
+    size: 24pt
+}
+
+h4, h5, h6 {
+    size: 20pt;
+}
+
+p {
+    size: 16pt;
+}
+
+button {
+    font-size: 18px;
+    background-color: #DE1A1A;
+    color: white;
+    padding: 10px;
+    border: 2px black;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+button:hover {
+    color: black;
+}
+
+hr {
+    color: #DE1A1A;
+    background-color: #DE1A1A;
+    border-color: transparent;
+
+    height: 1px;
+    width: 100%;
+}
+
+/* Wrappers */
+#content {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: auto;
+    background-color: white;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+.image-wrapper {
+    position: center;
+    margin: 10px auto;
+    display: inline-flex;
+}
+
+.image-wrapper img {
+    width: 100%;
+    display: inline-block;
+}
+
+.simple-gallery-wrapper {
+    width: auto;
+    display: inline-flex;
+    position: center;
+    background-color: #ffffff;
+}
+
+.simple-gallery-wrapper img {
+    margin: 10px auto;
+}
+
+/* Navigation bar */
+.top-nav {
+    overflow: hidden;
+    background-color: #DE1A1A;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    background-color: white;
+    color: #090809;
+
+}
+
+.top-nav a.active {
+    background-color: #090809;
+    color: white;
+}
