@@ -72,6 +72,19 @@ hr {
     width: 100%;
 }
 
+table {
+    height: 454px;
+    max-width: 820px;
+    border: #ef0813 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: center;
+}
+
+td {
+    color: white;
+}
+
 /* Wrappers */
 #content {
     margin-left: 10%;
