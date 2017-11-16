@@ -42,8 +42,10 @@ h4, h5, h6 {
 }
 
 p {
-    size: 16pt;
+    size: 18pt;
     color: white;
+
+    margin: 20px;
 }
 
 button {
@@ -84,13 +86,42 @@ hr {
 
 .image-wrapper {
     position: center;
-    margin: 10px auto;
+    margin: 10px;
     display: inline-flex;
 }
 
 .image-wrapper img {
     width: 100%;
     display: inline-block;
+}
+
+.quote-block {
+    width: auto;
+    display: inline-flex;
+    position: center;
+}
+
+.quote {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    display: inline-block;
+
+    background: #bcbcbc;
+    border-radius: 6px;
+    border: 4px #5566c2;
+
+    max-width: 400px;
+    height: auto;
+}
+
+.quote p {
+    text-align: center;
+    color: #242428;
+}
+
+.quote h4 {
+    color: #ef0813;
 }
 
 /* Navigation bar */
